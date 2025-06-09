@@ -11,5 +11,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  * Template: Spring Data
  * Generated on 2025-01-22
  */
-public interface IssueDetailsRepository extends MongoRepository<IssueDetailsEntity, String> {
+public interface IssueDetailsRepository extends MongoRepository<IssueDetailsEntity, Integer> {
 }

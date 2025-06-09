@@ -1,6 +1,8 @@
 package com.tutorial.article.repository;
 
 import com.tutorial.article.entity.ReviewsEntity;
+import com.tutorial.article.entity.ReviewsIdEntity;
+
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
@@ -11,5 +13,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
  * Template: Spring Data
  * Generated on 2025-01-22
  */
-public interface ReviewsRepository extends MongoRepository<ReviewsEntity, String> {
+public interface ReviewsRepository extends MongoRepository<ReviewsEntity, ReviewsIdEntity> {
 }
